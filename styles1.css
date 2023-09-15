@@ -19,9 +19,9 @@ ol ul {
 
 nav ul {
     list-style-type: none;
-    list-style: url();
+   /* list-style: url(https://enrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnK931CFGmmwrfIALWt2P6lqD2a99JKDqoPw&usqp=CAU);*/
 }
 
 nav ul li {
-    display: inline;
+    /*display: inline;*/
 }
