@@ -48,3 +48,10 @@ section::first-letter {
 section::first-line {
     font-style: italic;
 }
+
+section::before {
+    counter-increment: section;
+    content: "section" counter(section) ": ";
+    color: red;
+}
+
