@@ -16,3 +16,12 @@ ol ul {
     text-decoration: none;
     color: lightcoral;
 }
+
+nav ul {
+    list-style-type: none;
+    list-style: url();
+}
+
+nav ul li {
+    display: inline;
+}
