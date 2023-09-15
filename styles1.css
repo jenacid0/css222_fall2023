@@ -2,7 +2,7 @@ ol {
     list-style: square;
 }
 
-ul ul {
+ol ul {
     list-style-type: disc;
 }
 
