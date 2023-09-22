@@ -181,3 +181,18 @@ nav a:hover {
     width: 30%;
     padding: 15px;
 }
+
+main h2 {
+    color: coral;
+    font-size: 1.125em;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 600px) {
+    .columnA,
+    .columnB,
+    .columnC {
+        width: 50%;
+    }
+}
