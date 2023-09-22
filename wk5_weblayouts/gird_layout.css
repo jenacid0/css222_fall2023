@@ -17,3 +17,21 @@ h1 {
     color: steelblue;
     text-align: center;
 }
+
+.grid-container > div {
+    background-color: skyblue;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item2 {
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
