@@ -7,7 +7,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     background: #f1f1f1;
-    background-image: "images/hexagon-tiny-background.jpg";
+    background-image:url("images/hexagon-tiny-background.jpg");
 }
 
 .header-container {
