@@ -6,24 +6,31 @@
     height: 50vh;
     /*vh is view of the window*/
     background-color: lightblue;
-    /*flex defaults*/
-    flex-direction: row;
-    flex-wrap: nowrap;
+    /*flex defaults and their options*/
+    flex-direction: row, row-reverse, column-reverse, column;
+    flex-wrap: wrap;
     /*justify content is to set up the layout or content (start, end, center, etc. works too)*/
     justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
+    /*instead of justify content gap can be used to adjust the content as well / either or works*/
+    /*inbetween the rows is 10px, and columns is 20px (row, column)*/
+    gap: 10px 20px;
+    /*to specify the gaps rows or columns*/
+    row-gap: 20px;
+    column-gap: 10px;
     /*item placement and alignments*/
     align-items: stretch, start, center;
-
 }
 
 .flex-item {
-    width: 100px;
+    width: 200px;
     border: 1px solid gray;
     background-color: lightgray;
+    text-align: center;
 }
 
 .item-1 {
     min-height: 50px;
+    order: 0;
 }
 
 .item-2 {
@@ -32,4 +39,13 @@
 
 .item-3 {
     min-height: 200px;
+    text-align: left;
+}
+
+.item-4 {
+    min-height: 100px;
+}
+
+.item-5 {
+    min-height: 100px;
 }
