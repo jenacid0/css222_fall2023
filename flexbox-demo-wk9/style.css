@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    height: 50vh;
+    /*vh is view of the window*/
+    background-color: lightblue;
+
+}
+
+/*download live preview for vs code to display website while coding*/
+.flex-item {
+    width: 100px;
+    border: 1px solid gray;
+}
