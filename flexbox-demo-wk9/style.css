@@ -49,3 +49,11 @@
 .item-5 {
     min-height: 100px;
 }
+
+/* MEDIA QUERY - To ensure that website is compatible w devices*/
+@media only screen and (max-device-width: 400px) and (-webkit-min-device-pixel-ration: 2) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
