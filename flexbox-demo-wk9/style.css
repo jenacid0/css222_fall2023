@@ -3,6 +3,13 @@
     height: 50vh;
     /*vh is view of the window*/
     background-color: lightblue;
+    /*flex defaults*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*justify content is to set up the layout or content (start, end, center, etc. works too)*/
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
+    /*item placement and alignments*/
+    align-items: stretch, start, center;
 
 }
 
@@ -10,4 +17,17 @@
 .flex-item {
     width: 100px;
     border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.item-1 {
+    min-height: 50px;
+}
+
+.item-2 {
+    min-height: 100px;
+}
+
+.item-3 {
+    min-height: 200px;
 }
