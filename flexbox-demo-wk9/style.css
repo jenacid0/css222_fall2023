@@ -1,3 +1,15 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    align-items: flex-start;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /*download live preview for vs code to display website while coding*/
 /*WEEK 9 FLEX BOX*/
 
@@ -31,7 +43,7 @@
 .item-1 {
     min-height: 50px;
     order: 0;
-    flex: auto, 0, 1,.05, none;
+    flex: auto, 0, 1, .05, none;
 }
 
 .item-2 {
@@ -54,13 +66,10 @@
 }
 
 /* MEDIA QUERY - To ensure that website is compatible and responsive w devices*/
-@media only screen 
-and (max-device-width: 400px) 
-and (-webkit-min-device-pixel-ration: 2) {
+@media only screen and (max-device-width: 400px) and (-webkit-min-device-pixel-ration: 2) {
     .flex-container {
         display: flex;
         flex-direction: column;
         height: 75vh;
     }
 }
-
