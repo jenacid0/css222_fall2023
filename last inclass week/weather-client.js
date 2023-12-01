@@ -1,1 +1,3 @@
-document.getElementById('tempC').innerHTML = "Something here";
+$(document).ready(function(){
+    document.getElementById('tempC').innerHTML = "Something here";
+});
